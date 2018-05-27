@@ -3,7 +3,7 @@
 In this example,  we'll build a simple (2-hidden layer) neural network to classify hand written digits using the MNIST dataset and TensorFlow.  We'll graph the loss and the accuracy as Metrics in our Gradient Job.
 
 ## Clone this example
-This Job is public so you can clone it in your own account with this [link](https://www.paperspace.com/console/jobs/j72dysqf7piax)
+This Job is public so you can clone it in your own account with this [link](https://www.paperspace.com/console/jobs/jlczqui8u23ij)
 
 ## Using Metrics in other Jobs
 #### The following steps will allow you to graph data in your Jobs:
