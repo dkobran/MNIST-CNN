@@ -1,8 +1,12 @@
-# Example project: How to generate graphs in Gradient
+# Sample project: Generating graphs in Gradient
 
 In this example,  we'll build a simple (2-hidden layer) neural network to classify hand written digits using the MNIST dataset and TensorFlow.  We'll graph the loss and the accuracy as Metrics in our Gradient Job.
 
-### The following steps will allow you to graph data in your Jobs:
+## Clone this example
+This Job is public so you can clone it in your own account with this [link](https://www.paperspace.com/console/jobs/j72dysqf7piax)
+
+## Using Metrics in other Jobs
+#### The following steps will allow you to graph data in your Jobs:
 
 To instantiate a chart, print the following statement in your logs:
 
@@ -16,6 +20,6 @@ Once the chart is instantiated, you may add data with the following statement:
 
 The 'identifier' is the same string you instantiated the chart with. The x and y values serve as a data point. The y value is required. If no x value is specified, however, the chart will default to time duration, meaning the x value will be the time in seconds between the beginning of the job to when the statement is printed in the job log. Note that number values do not require quotes.
 
-Here's what a typical output of the detector will look like:
+### Here's what a typical output of the Metrics will look like:
 
 ![Metrics Example](https://i.imgur.com/ZBuGMNi.png)
