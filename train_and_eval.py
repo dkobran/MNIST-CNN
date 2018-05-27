@@ -124,9 +124,6 @@ with tf.Session() as sess:
             loss, acc = sess.run([cost, accuracy], feed_dict={x: batch_x,
                                                               y: batch_y,
                                                               keep_prob: 1.})
-            # print("Iter " + str(step*batch_size) + ", Minibatch Loss= " + \
-            #       "{:.6f}".format(loss) + ", Training Accuracy= " + \
-            #       "{:.5f}".format(acc))
             print("Iter " + str(step*batch_size) + ", Minibatch Loss= " + \
                   "{:.6f}".format(loss) + ", Training Accuracy= " + \
                   "{:.5f}".format(acc))
