@@ -4,6 +4,6 @@ In this example,  we'll build a simple (2-hidden layer) neural network to classi
 
 Here's what a typical output of the detector will look like
 
-![Metrics Example](https://imgur.com/ZBuGMNi)
+![Metrics Example](https://i.imgur.com/ZBuGMNi.png)
 
 We'll graph the loss and the accuracy as Metrics in our Gradient Job
